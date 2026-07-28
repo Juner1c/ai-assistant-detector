@@ -1,0 +1,11 @@
+{
+  "name": "ai-detector-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Trust & Safety Assistant - Deepfake Image Scanner and PII Privacy Chat",
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "dev": "npm --prefix frontend run dev",
+    "preview": "npm --prefix frontend run preview"
+  }
+}
