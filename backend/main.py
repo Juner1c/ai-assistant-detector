@@ -131,4 +131,5 @@ async def chat_with_ai(user_message: str = Form(...), is_fake: bool = Form(...))
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    port = int(os.getenv("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
